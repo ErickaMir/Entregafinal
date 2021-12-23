@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Assistant', sans-serif;
+}
+
+
+
+h3, h4 {
+	font-size: 1.6rem;
+	color: $primario;
+	font-weight: 600;
+	font-style:normal ;
+	text-transform:uppercase;
+	letter-spacing:.5rem ;
+	text-align:center;
+	word-spacing:.8rem ;
+}
+
+
+
+.h5I{
+	font-size: 1rem;
+	color:$primario;
+	font-weight: 600;
+	font-style:normal ;
+	text-transform:uppercase;
+	letter-spacing:.5rem ;
+	word-spacing:.7rem ;
+
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top:2rem ;
+}
+
+.encabezado{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between ;
+	align-items:center ;
+
+}
+
+.logo{
+	width: 120px;
+
+}
+.encabezadoMenu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+	align-items: center;
+	margin-right: 5rem;
+
+}
+
+.todoslosProductos{
+	background-color:#FFFFFF ;
+
+}	
+.parrafoEnvios {
+	font-size: 1rem;
+	text-align:center;
+	background-color:$secundario;
+	text-transform: uppercase;
+	color:$primario;
+	font-weight: 600;
+	padding: 7px 0;
+	margin-bottom: 2rem;
+
+
+}
+
